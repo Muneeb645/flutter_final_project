@@ -5,6 +5,9 @@ class SplashActivity extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(backgroundColor: Color(0xFF108244)));
+    return Scaffold(
+      appBar: AppBar(backgroundColor: Color(0xFF108244)),
+      body: Column(children: [Text('LuxeyLine')]),
+    );
   }
 }
