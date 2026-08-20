@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_final_project/Onboarding/splash_activity.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,10 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(scaffoldBackgroundColor: Color(0xFF108244)),
-      debugShowCheckedModeBanner: false,
-      home: SplashActivity(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen());
   }
 }
